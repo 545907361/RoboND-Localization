@@ -42,8 +42,8 @@ $ source devel/setup.bash
 And then run the following in *separate* terminals -
 
 ``` bash
-$ roslaunch udacity_bot udacity_bot
-$ roslaunch udacity_bot amcl
-$ rosrun udacity_bot navigation goal
+$ roslaunch udacity_bot udacity_bot.launch
+$ roslaunch udacity_bot amcl.launch
+$ rosrun udacity_bot navigation goal.launch
 ```
 
